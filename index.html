@@ -1,15 +1,67 @@
+
 <!DOCTYPE html>
 <html lang="en-us">
+
+<style>
+<head>
+header {
+  background-color: #ffffff;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: #6a5b4d;
+position: absolute;
+}
+
+footer {
+  position: relative;
+  text-align: center;
+	top: 100%
+  padding: 30px;
+}
+
+section:after {
+  content: "";
+}
+</style>
+</head>
+
+<body>
+<header>
+<img src="TemplateData/IFF_Logo_Top.gif" alt="Instituto Figueiredo Ferraz" class="center"/>
+<div id="rectangle"></div>
+</header>
+
+<head>
+<img src="TemplateData/ExhibitionTitle.jpg" alt="Outras Paisagens Cole  o Dulce e Jo o Carlos de Figueiredo Ferraz Curadoria Rejane Cintr o" class="center" width = 50%/>
+</head>
+
+<head>
+<img src="TemplateData/Sponsorship.jpg" alt="Apoio e Patrocinadores" class="center" width = 50%/>
+</head>
+
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Visita Virtual | IFF</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    
+<link rel="stylesheet" href="TemplateData/style.css">
+    <script src="TemplateData/UnityProgress.js"></script>
     <script src="Build/UnityLoader.js"></script>
     <script>
-      UnityLoader.instantiate("unityContainer", "Build/Builds.json");
+      var unityInstance = UnityLoader.instantiate("unityContainer", "Build/Builds.json", {onProgress: UnityProgress});
     </script>
   </head>
-  <body>
-    <div id="unityContainer" style="width: 960px; height: 600px; margin: auto"></div>
-  </body>
+
+    <div class="webgl-content">
+      <div id="unityContainer" style="width: 960px; height: 600px"></div>
+      <div class="footer">
+        <div class="webgl-logo"></div>
+        <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
+        <div class="title"> Outras Paisagens | Instituto Figueiredo Ferraz</div>
+<div class= "sponsorship"></div>
+      </div>
+    </div>
+</body>
 </html>
