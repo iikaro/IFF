@@ -19,7 +19,7 @@ padding: 0;
 
 .webgl-content {
 position: absolute; 
-top: 130%; 
+top: 700px; 
 left: 50%;
 float: center;
 -webkit-transform: translate(-50%, -50%);
@@ -104,4 +104,3 @@ background-image: url('fullscreen.png');
 width: 38px; 
 float: right;
 }
-
