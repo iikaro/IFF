@@ -276,11 +276,11 @@ ul li:hover a {
 }
 /* Hero Section */
 .hero {
-	background-color: #B3B3B3;
-	padding-top: 300px;
-	padding-bottom: 300px;
-	background-size: 100% auto;
-	background-image: url(../Imagens%20IFF/teste%20entar%20na%20expo3.jpg);
+    background-color: #B3B3B3;
+    padding-top: 300px;
+    padding-bottom: 300px;
+    background-size: 100% auto;
+    background-image: url(HomePageScreen.png);
 }
 .light {
 	font-weight: bold;

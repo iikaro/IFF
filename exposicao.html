@@ -1,13 +1,25 @@
 ﻿<!DOCTYPE html>
 <html lang="en-us">
 <head>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-176984403-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-176984403-1');
+
+    </script>
+
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Visita Virtual | IFF</title>
     <link rel="stylesheet" href="TemplateData/style.css">
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <script src="TemplateData/UnityProgress.js"></script>
-    
+
     <script src="Build/UnityLoader.js"></script>
     <script>
         var unityInstance = UnityLoader.instantiate("unityContainer", "Build/Builds.json", { onProgress: UnityProgress });
