@@ -1,4 +1,4 @@
-@charset "UTF-8";
+﻿@charset "UTF-8";
 /* Ubuntu Font Family Bower-ready v0.1.13 */
 
 /* BEGIN Ubuntu Light */
@@ -111,8 +111,7 @@
     font-weight: bold;
     font-style: italic;
 }
-/* END Ubuntu Bold Italic */
-
+/* END Ubuntu Bold Italic *
 
 /* BEGIN Ubuntu Condensed */
 @font-face {
@@ -127,8 +126,6 @@
     font-style: normal;
 }
 /* END Ubuntu Condensed */
-
-
 
 /* BEGIN Ubuntu Mono Regular */
 @font-face {
@@ -190,21 +187,22 @@
 
 /* Body */
 body {
-	background-color: #f2f2f2;
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	font-style: normal;
-	font-weight: 200;
-	line-height: 2px;
-	float: none;
-	clear: none;
-	border-collapse: collapse;
-	background-repeat: no-repeat;
-	padding-left: 90px;
-	padding-top: 10px;
-	padding-bottom: 10px;
+    background-color: #f2f2f2;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    font-style: normal;
+    font-family: Ubuntu, "times new roman", times, roman, serif;
+    font-weight: 200;
+    line-height: 2px;
+    float: none;
+    clear: none;
+    border-collapse: collapse;
+    background-repeat: no-repeat;
+    padding-left: 90px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 /* Container */
 .container {
