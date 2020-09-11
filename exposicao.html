@@ -1,10 +1,27 @@
-<!DOCTYPE html>
-<html>
-<body>
+﻿<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Visita Virtual | IFF</title>
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <script src="TemplateData/UnityProgress.js"></script>
+    
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+        var unityInstance = UnityLoader.instantiate("unityContainer", "Build/Builds.json", { onProgress: UnityProgress });
+    </script>
+</head>
 
-<h1>My First Heading</h1>
-
-<p>My first paragraph.</p>
-
+<body class="template">
+    <div class="webgl-content">
+        <div id="unityContainer" style="width: 960px; height: 600px"></div>
+        <div class="footer">
+            <div class="webgl-logo"></div>
+            <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
+            <div class="title"> Outras Paisagens | Instituto Figueiredo Ferraz | Tela cheia</div>
+        </div>
+    </div>
 </body>
 </html>

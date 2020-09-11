@@ -19,7 +19,7 @@ padding: 0;
 
 .webgl-content {
 position: absolute; 
-top: 750px; 
+top: 50%; 
 left: 50%;
 float: center;
 -webkit-transform: translate(-50%, -50%);
