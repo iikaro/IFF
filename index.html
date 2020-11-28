@@ -1,7 +1,9 @@
-﻿<!doctype html>
-<html lang="en-US">
-<head>
+<!DOCTYPE html>
+<html>
 
+<head>
+    <meta charset="utf-8">
+    <title>HomeIFF</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-176984403-2"></script>
     <script>
@@ -12,16 +14,18 @@
         gtag('config', 'UA-176984403-2');
     </script>
 
-    <meta name="viewport" content="width=1024">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <!--Get your own code at fontawesome.com-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin">
+    <link rel="stylesheet" type="text/css"
+        href="http://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Visita Virtual | IFF </title>
-    <link href="TemplateData/singlePageTemplate.css" rel="stylesheet" type="text/css">
+    <link href="../../../../../../Downloads/TemplateData/singlePageTemplate.css" rel="stylesheet" type="text/css">
+    <link href="../../../../../../Downloads/styles.css" rel="stylesheet" type="text/css">
     <!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.-->
     <script>var __adobewebfontsappname__ = "dreamweaver"</script>
     <script src="http://use.edgefonts.net/source-sans-pro:n2:default.js" type="text/javascript"></script>
@@ -31,289 +35,349 @@
           <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
           <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
-
 </head>
-	
+
 	<head>
 	
-<style>
-.container {
-	position: relative;
-	width: 100%;
-	font-family: Ubuntu;
-	font-style: normal;
-	font-weight: normal;
-	text-align: center;
-	line-height: 20px;
-	letter-spacing: 1px;
-	color: #FFFFFF;
+	<style>
+		
+		
+		.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Ubuntu;
 }
 
-			.footer {
-	position: relative;
-	width: 100%;
-	font-family: Ubuntu;
-	font-style: normal;
-	font-weight: normal;
-	text-align: center;
-	line-height: 10px;
-	letter-spacing: 1px;
-	color: #FFFFFF;
-	background-color: #6DCAAF;
-	}
-				
-				
-.container img {
-  width: 100%;
-  height: auto;
-}
-	
-	.regua img {
-  width: 70%;
-  height: auto;
+.logo {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
-	
-.container .btn {
-	position: absolute;
-	top: 35%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%);
-	background-color: #7A7572;
-	color: white;
-	font-size: 18px;
-	padding: 12px 24px;
-	border: none;
-	cursor: pointer;
-	border-radius: 5px;
-	text-align: center;
-	clear: none;
-	font-family: Ubuntu;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: normal;
-	letter-spacing: 1px;
-	height: auto;
-	width: auto;
-	min-width: 350px;
-	min-height: 60px;
-	text-decoration: none;
+.banner_destaque {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #6DCAAF; 
+    padding-bottom: 15px; 
+    padding-top: 5px;
 }
 
-			.container .btngaleria {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%);
-	background-color: #7A7572;
-	color: white;
-	font-size: 18px;
-	padding: 12px 24px;
-	border: none;
-	cursor: pointer;
-	border-radius: 5px;
-	text-align: center;
-	clear: none;
-	font-family: Ubuntu;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: normal;
-	letter-spacing: 1px;
-	height: auto;
-	width: auto;
-	min-width: 350px;
-	min-height: 60px;
-	text-decoration: none;
+.banner_destaque > h1 {
+    line-height: 20px;
+    letter-spacing: 5px;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: normal;
+    text-align: center;
 }
 
-			.container .btnequipe {
-	position: absolute;
-	top: 65%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%);
-	background-color: #7A7572;
-	color: white;
-	font-size: 18px;
-	padding: 12px 24px;
-	border: none;
-	cursor: pointer;
-	border-radius: 5px;
-	text-align: center;
-	clear: none;
-	font-family: Ubuntu;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: normal;
-	letter-spacing: 1px;
-	height: auto;
-	width: auto;
-	min-width: 350px;
-	min-height: 60px;
-	text-decoration: none;
+.banner_destaque > h2 {
+    line-height: 20px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: normal;
+    text-align: center;
 }
 
-			
-			
-.container .btn:hover {
-	background-color: #6DCAAF;
-	text-transform: none;
-	text-decoration: none;
-	clear: none;
-	height: auto;
-	width: auto;
-			}
-			
-			
-			.container .btngaleria:hover {
-	background-color: #6DCAAF;
-	text-transform: none;
-	text-decoration: none;
-	clear: none;
-	height: auto;
-	width: auto;
-			}
-			
-	
-			.container .btnequipe:hover {
-	background-color: #6DCAAF;
-	text-transform: none;
-	text-decoration: none;
-	clear: none;
-	height: auto;
-	width: auto;
-			}
-			
+.menu_principal {
+    display: flex;
+    justify-content: center;
+    background-image: url(TemplateData/HomePageScreen.png);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+    align-items: center;
+    height: 760px;
+    background-origin: border-box;
+    margin-top: 16px;
+    background-position: top right;
+    animation: slideSoft 60s infinite;
+  }
+  
+@keyframes slideSoft {
+    50% { background-position: center; }
+}
+
+.menu_principal > menu {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 300px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.botao_menu {
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #7A7572;
+    color: white;
+    font-size: 18px;
+    border: none;
+    width: 350px;
+    height: 60px;
+    font-family: Ubuntu;
+    letter-spacing: 1px;
+}
+
+.botao_menu:hover{
+    background-color: #6DCAAF;
+    border: none;
+}
+
+.conteudo {
+    padding-left: 70px;
+    padding-right: 70px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .conteudo {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .botao_menu {
+        width: 100%;
+        height: 60px;
+    }
+}
+
+.depoimento {
+    padding-top: 40px;
+}
+
+.depoimento > p {
+    color: #706259;
+    text-align: justify;
+    font-family: Ubuntu;
+    letter-spacing: 1px;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.depoimento > cite {
+    font-style: normal;
+    color: #706259;
+}
+
+.link_acesso {
+    justify-content: start;
+}
+
+.link_acesso > p > a {
+    font-family: Ubuntu;
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.info_autores {
+    color: #706259;
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding-top: 90px;
+}
+
+.info_autores > p {
+    line-height: 20px;
+}
+
+.info_autores > p > a {
+    font-family: Ubuntu;
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.patrocinio {
+    padding-top: 90px;
+    display: flex;
+    justify-content: center;
+}
+
+.patrocinio > img {
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+}
+
+.info_footer {
+    display: flex;
+    flex-direction: column;
+    height: 140px;
+    justify-content: space-between;
+}
+
+.info_footer-text{
+    font-size: 10px;
+}
+
+.info_footer-text-mini {
+    font-size: 9px;
+}
+
+.footer_text {
+    font-style: normal;
+    text-align: center;
+    color: #706259;
+    letter-spacing: 1px;
+}
+
+.social_icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social_icons > a {
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.default_text {
+    font-family: Ubuntu; 
+    line-height: 20px; 
+}
+
+
+
+		
+		
+		
+		
+		
 		</style>
-
-
-<meta charset="utf-8">
-<title>HomeIFF</title>
-</head>
-	<style type="text/css"> 
-a:link 
-{
-	text-decoration: none;
-	font-size: 14px;
-} 
-
-a:visited {
-  color: blue;
-  background-color: transparent;
-  text-decoration: none;
-}
-a:hover {
-  color: red;
-  background-color: transparent;
- 
-}
-    </style>
+	
+	
+	</head>
 <body>
-<center>
-	<h1><img src="TemplateData/IFF_Logo_Header.jpg" width="260" height="auto" alt="Logo do IFF"></h1>
-</center>
-	<h2 style="text-align: center; font-weight: normal; font-style: normal; font-family: Ubuntu; font-size: 18px; background-color: #6DCAAF; color: #FFFFFF; background-repeat: no-repeat; clear: none; float: none; padding-bottom: 30px; padding-top: 20px; line-height: 20px; text-decoration: none; font-variant: normal; letter-spacing: 5px;">Bem Vindo à Exposição Virtual do IFF</h2>
-	<center>
-	
-	  <div class="container">
-  <img src="TemplateData/HomePageScreen.png" alt="Foto Tour Virtual" style="width: 90%; background-repeat: no-repeat;" height="auto">
-  <a href="http://visitavirtualiff.com/exposicao" target="_blank">
-  <button class="btn">Entrar na Exposição</button> </a>   
-		  
-<a href="GaleriaIFF.html">
-<button class="btngaleria">Entrar na Galeria</button></a>
-		  
-      <a href="EquipeIFF.html">
-      <button class="btnequipe">Equipe IFF</button> </a>
-		
-		</div>
-	
-	<!--
-<img src="Imagens IFF/teste entar na expo3.jpg" width="100%" height="auto" alt="Foto Tour Virtual">
--->
-		
-	</center>
-	
-	<p style="text-align: justify; color: #1C03F0; font-weight: normal; font-style: normal; font-family: Ubuntu; font-size: 12px; line-height: 20px; letter-spacing: 1px; margin-left: 70px; margin-right: 70px;"><a href="suportetecnicoiff">Não consigo acessar a Exposição </a></p>
-	<br>
-	<br>
-	<p style="text-align: justify; color: #706259; font-weight: normal; font-style: normal; font-family: Ubuntu; font-size: 14px; line-height: 20px; letter-spacing: 1px; margin-left: 70px; margin-right: 70px;">O Instituto Figueiredo Ferraz tem como missão disseminar e incentivar a arte brasileira contemporânea, tornando-a acessível a todos por meio de exposições, cursos, encontros com artistas e, principalmente, por meio de nossas atividades promovidas para escolas públicas e privadas de Ribeirão Preto e região. </p>
-<p style="text-align: justify; color: #706259; font-weight: normal; font-style: normal; font-family: Ubuntu; font-size: 14px; line-height: 20px; letter-spacing: 1px; margin-left: 70px; margin-right: 70px;">Desde sua abertura em 2011, já recebemos cerca de 50 mil visitantes, graças às leis de incentivo e nossos patrocinadores, que viabilizaram nossas atividades, possibilitando a entrada gratuita a todos. Como os novos tempos não permitem que possamos recebê-los em nosso espaço por enquanto, nossa equipe preparou uma experiência sensacional, que vai levar o IFF até a sua casa, onde quer que você esteja. Basta ter acesso a um computador. Você poderá visitar a mostra "Outras Paisagens" e conhecer de pertinho os 25 trabalhos pertencentes à coleção Dulce e João Carlos de Figueiredo Ferraz.</p>
-	<p style="color: #706259; font-style: normal; font-weight: bold; font-size: 14
-			  px; text-align: justify; margin-left: 70px; margin-right: 70px; font-family: Ubuntu;">Rejane Cintrão</p>
-	<br>
-	<br>
-<p style="text-align: justify; color: #706259; font-weight: normal; font-style: normal; font-family: Ubuntu; font-size: 14px; line-height: 20px; letter-spacing: 1px; margin-left: 70px; margin-right: 70px;">Embora reproduzir virtualmente todos os atributos do mundo real seja uma tarefa difícil, a exposição virtual do IFF busca imergir o usuário dentro de uma exposição artística em um momento em que o acesso a esta, de forma presencial, não é possível. Assim, não se busca substituir a experiência real, o que demandaria o uso de ferramentas mais sofisticadas e menos acessíveis ao público. Antes, busca-se fornecer uma alternativa viável aos apreciadores de Arte, os quais vão poder, graças à aplicação, contemplar de forma remota o acervo do Instituto. </p>
-	<p style="color: #706259; font-style: normal; font-weight: bold; font-size: 14
-			  px; text-align: justify; margin-left: 70px; margin-right: 70px; font-family: Ubuntu;">Ícaro Ostan</p>
-
-	
-<p style="text-align: justify; color: #706259; font-weight: normal; font-style: normal; font-family: Ubuntu; font-size: 12px; line-height: 20px; letter-spacing: 1px; margin-left: 70px; margin-right: 70px;"><a href="http://www.iff.art.br/exposicoes/outras-paisagens" target="_blank">Mais informações sobre a Exposição <em>Outras Paisagens</em></a></p>
-	<p></p>
-	
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	
-<p style="text-align: justify; color: #706259; font-weight: normal; font-style: normal; font-family: Ubuntu; font-size: 14px; line-height: 20px; letter-spacing: 1px; margin-left: 70px; margin-right: 70px;">Curadoria - Rejane Cintrão</p>
-		
-<p style="text-align: justify; color: #706259; font-weight: normal; font-style: normal; font-family: Ubuntu; font-size: 14px; line-height: 20px; letter-spacing: 1px; margin-left: 70px; margin-right: 70px;">Desenvolvedor - Ícaro Ostan </p>
-		
-     <p style="text-align: justify; color: #706259; font-weight: normal; font-style: normal; font-family: Ubuntu; font-size: 14px; line-height: 20px; letter-spacing: 1px; margin-left: 70px; margin-right: 70px;">Co-desenvolvedor - Ingrid Ostan </p>
-	
-<p style="text-align: justify; color: #706259; font-weight: normal; font-style: normal; font-family: Ubuntu; font-size: 12px; line-height: 20px; letter-spacing: 1px; margin-left: 70px; margin-right: 70px;">Entre em contato com o desenvolvedor através deste <a href="https://docs.google.com/forms/d/e/1FAIpQLSe-FZ34diEv7Wr7cHwXbRSyq1Gwg7i3wKnHlCAS1Pz6fFzNVg/viewform" target="_blank">Formulário</a></p>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	
-	<div class="regua">
-	<center>
-<img src="TemplateData/ReguaPatrocinio.jpg" alt="Apoio" width="800" height="auto">
-	</center>
-	</div>
-	
-<footer class="footer">
-	<br>
-	<span style="font-weight: normal; font-size: 18px;">VISITE TAMBÉM</span>
-	<center>
-		<p> 
-		 <!-- IFF -->
-	   
-				<a href="http://www.institutofigueiredoferraz.com.br/" target="_blank">
-					<img src="ImagensGaleria/web.png" width="35" height="alto" alt=""/></a>
+    <script>
+        function acessarLink(link) {
+            window.location.href = link;
+        }
+    </script> 
+    <div class="container">
+        <div class="logo">
+            <img src="../../../../../../Downloads/TemplateData/IFF_Logo_Header.jpg" width="260px" height="auto" alt="Logo do IFF" />
+        </div>
+        <div class="banner_destaque">
+            <h1>Bem Vindo à Exposição Virtual do IFF</h1>
+        </div>
+        <div class="conteudo">
+            <div class="menu_principal">
+                <menu>
+                    <li>
+                        <button class="botao_menu" onclick="acessarLink('http://visitavirtualiff.com/exposicao')">Entrar na Exposição</button>
+                    </li>
+                    <li>
+                        <button class="botao_menu" onclick="acessarLink('https://visitavirtualiff.com/GaleriaIFF.html')">Entrar na Galeria</button>
+                    </li>
+                    <li>
+                        <button class="botao_menu" onclick="acessarLink('https://visitavirtualiff.com/EquipeIFF.html')">Equipe IFF</button>
+                    </li>
+                </menu>
+            </div>
+            <div class="link_acesso">
+                <p><a href="https://visitavirtualiff.com/suportetecnicoiff" class="default_text">Não consigo acessar a Exposição</a></p>
+            </div>
+            <div class="depoimento">
+                <p>
+                    O Instituto Figueiredo Ferraz tem como missão disseminar e incentivar a arte brasileira
+                    contemporânea,
+                    tornando-a acessível a todos por meio de exposições, cursos, encontros com artistas e,
+                    principalmente,
+                    por meio de nossas atividades promovidas para escolas públicas e privadas de Ribeirão Preto e
+                    região.
+                </p>
+                <p>
+                    Desde sua abertura em 2011, já recebemos cerca de 50 mil visitantes, graças às leis de incentivo e
+                    nossos patrocinadores, que viabilizaram nossas atividades, possibilitando a entrada gratuita a
+                    todos.
+                    Como os novos tempos não permitem que possamos recebê-los em nosso espaço por enquanto, nossa equipe
+                    preparou uma experiência sensacional, que vai levar o IFF até a sua casa, onde quer que você esteja.
+                    Basta ter acesso a um computador. Você poderá visitar a mostra "Outras Paisagens" e conhecer de
+                    pertinho
+                    os 25 trabalhos pertencentes à coleção Dulce e João Carlos de Figueiredo Ferraz.</p>
+				
+              <cite>
+                    <strong>Rejane Cintrão</strong>
+                </cite>
+            </div>
+            <div class="depoimento">
+                <p>
+                    Embora reproduzir virtualmente todos os atributos do mundo real seja uma tarefa difícil, a exposição
+                    virtual do IFF busca imergir o usuário dentro de uma exposição artística em um momento em que o
+                    acesso a
+                    esta, de forma presencial, não é possível. Assim, não se busca substituir a experiência real, o que
+                    demandaria o uso de ferramentas mais sofisticadas e menos acessíveis ao público. Antes, busca-se
+                    fornecer uma alternativa viável aos apreciadores de Arte, os quais vão poder, graças à aplicação,
+                    contemplar de forma remota o acervo do Instituto.
+                </p>
+                <cite>
+                    <strong>Ícaro Ostan</strong>
+                </cite>
+            </div>
+            <div class="link_acesso">
+                <p><a href="http://www.iff.art.br/exposicoes/outras-paisagens">Mais informações sobre a Exposição <cite>Outras Paisagens</cite></a></p>
+            </div>
+            <div class="info_autores">
+                <p>
+                    Curadoria - Rejane Cintrão
+                </p>
+                <p>
+                    Desenvolvedor - Ícaro Ostan
+                </p>
+                <p>
+                    Co-desenvolvedor - Ingrid Ostan
+                </p>
+                <p style="font-size: 12px;">
+                    Entre em contato com o desenvolvedor através deste
+                    <a
+                        href="https://docs.google.com/forms/d/e/1FAIpQLSe-FZ34diEv7Wr7cHwXbRSyq1Gwg7i3wKnHlCAS1Pz6fFzNVg/viewform">Formulário</a>
+                </p>
+            </div>
+            <div class="patrocinio"><img src="../../../../../../Downloads/TemplateData/ReguaPatrocinio.jpg" width="800" height="auto" alt=""/> <a/>
+            </div>
+        </div>
+        <footer class="banner_destaque">
+            <center><span style="font-weight: normal; font-size: 18px; color: rgba(255,255,255,1);">VISITE TAMBÉM</span></center>
+			<br>
+            <div class="social_icons">
+                <a href="http://www.institutofigueiredoferraz.com.br/" target="_blank">
+                    <img src="../../../../../../Downloads/ImagensGaleria/web.png" alt="" width="35px"></a>
+                <a href="https://www.instagram.com/institutofigueiredoferraz/" target="_blank">
+                    <img src="../../../../../../Downloads/ImagensGaleria/insta.png" width="40px" height="auto" alt=""></a>
+                <a href="https://www.facebook.com/institutofigueiredoferraz" target="_blank">
+                    <img src="../../../../../../Downloads/ImagensGaleria/facebook.png" width="35px" height="auto" alt=""></a>
+                <a href="https://www.youtube.com/user/InstitutoFF" target="_blank">
+                    <img src="../../../../../../Downloads/ImagensGaleria/youtube.png" width="40px" height="auto" alt=""></a>
+            </div>
+        </footer>
+        <div class="info_footer">
+            <div>
+                <p>
+                <address class="default_text footer_text info_footer-text">
+                    Rua Maestro Ignácio Stábile, 200 | Alto da Boa Vista | 14025-640 | Ribeirão Preto | SP | Brasil
+                </address>
+                </p>
 			
-	
-		  <!-- Instagram -->
-		  <a href="https://www.instagram.com/institutofigueiredoferraz/" target="_blank">
-			  <img src="ImagensGaleria/insta.png" width="40" height="auto" alt=""/></a>
-			 
-		 
-	  <!-- Facebook -->
-	  
-			  <a href="https://www.facebook.com/institutofigueiredoferraz" target="_blank">
-				  <img src="ImagensGaleria/facebook.png" width="35" height="auto" alt=""/></a>
-	  
-	  <!-- Youtube -->
-	  
-			  <a href="https://www.youtube.com/user/InstitutoFF" target="_blank">
-				  <img src="ImagensGaleria/youtube.png" width="40" height="auto" alt=""/></a>
-		
-		</p> 
-	</center>
-	<br>
-	
-</footer>
-<p style="text-align: center; color: #706259; font-weight: normal; font-style: normal; font-family: Ubuntu; font-size: 10px; line-height: 20px; letter-spacing: 1px; margin-left: 10px; margin-right: 10px;">Rua Maestro Ignácio Stábile, 200 | Alto da Boa Vista | 14025-640 | Ribeirão Preto | SP | Brasil</p>
-<p style="text-align: center; color: #706259; font-weight: normal; font-style: normal; font-family: Ubuntu; font-size: 10px; line-height: 20px; letter-spacing: 1px; margin-left: 10px; margin-right: 10px;">+55 16 3623 2261 | 3623 2262 | contato@iff.art.br</p>
-<br>
-	<br>
-	<p style="text-align: center; color: #706259; font-weight: normal; font-style: normal; font-family: Ubuntu; font-size: 9px; line-height: 20px; letter-spacing: 1px; margin-left: 10px; margin-right: 10px;">Instituto Figueiredo Ferraz © Todos os direitos reservados</p>
+                <p>
+                <address class="default_text footer_text info_footer-text">
+                    +55 16 3623 2261 | 3623 2262 | contato@iff.art.br
+                </address>
+                </p>
+            </div>
+            <address class="default_text footer_text info_footer-text-mini">Instituto Figueiredo Ferraz © Todos os direitos reservados</address>
+        </div>
+    </div>
 </body>
+
 </html>
